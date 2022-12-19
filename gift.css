@@ -68,60 +68,31 @@
 	text-decoration: none;
 	color: black;
 }
-.enasty{
-	display: flex;
-	font-size: 25px;
-}
+
 .menu{
-	margin-left: 25%;
+	margin-left: 17%;
 	position: relative;
-	width: 280px;
-	height: 280px;
+	width: 100px;
+	height: 80px;
 	background: rgba(250, 250, 250, 0.1);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-
-
-.menu .toggle{
-	position: relative;
-	width: 60px;
-	height: 60px;
-	background: #fff;
-	border-radius: 50%;
-	box-shadow: 0 3px 4px rgba(0,0,0,15);
+.menu{
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #333;
-	cursor: pointer;
-	font-size: 2em;
-	transition: 1.25s;
-	z-index: 1000;
-}
-.menu.active .toggle{
-	transform: rotate(360deg);
-	box-shadow: 0 6px 8px rgba(0,0,0,15),0 0 0 2px #333,0 0 0 8px #fff;
+
+	margin-bottom: 20px ;
 }
 .menu li{
-	position: absolute;
-	left: 0;
-	list-style: none;
-	transition: 0.5s;
-	transform: rotate(calc(45deg * var(--i)));
-	transform-origin: 140px;
-	scale: 0;
-	transition-delay: calc(0.05s * var(--i));
+	text-decoration: none;
 }
-.menu.menu.active li {
-	scale: 1;
-}
+
 .menu li a {
+	padding: 0 5px;
 	position: relative;
 	display: flex;
-	transform: rotate(calc(-45deg * var(--i)));
 	width: 60px;
 	height: 60px;
 	background: #fff;
@@ -137,15 +108,13 @@
 	font-size: 2.5em;
 	box-shadow: 0 0 0 2px var(--clr), 0 0 0 6px #fff;
 }
-.menu	{
-	margin-left: auto;
-	margin-top: 20px;
-}
+	
 .enasty{
-    padding-top: 7              0px;
-    height: 100px;
+	height: 100px;
     align-items: center;
-    justify-content:space-between;
+	height: 100px;
+    align-items: center;
+	display: flex;
 
 }
 .about{
@@ -338,11 +307,21 @@
 	transition: translateX(0);
 
 }
-@media(prefers-reduced-motion){
-	.pass{
-		transition:none;
-	}
-}
+.dropbtn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+	background-color: #3e8e41;
+  }
+  
+   
+  .show {display: block;}
 
 
 
@@ -373,43 +352,30 @@
 
 
 
-.menu .toggle{
+.menu{
+	margin-left: 17%;
 	position: relative;
-	width: 60px;
-	height: 60px;
-	background: #fff;
-	border-radius: 50%;
-	box-shadow: 0 3px 4px rgba(0,0,0,15);
+	width: 100px;
+	height: 80px;
+	background: rgba(250, 250, 250, 0.1);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #333;
-	cursor: pointer;
-	font-size: 2em;
-	transition: 1.25s;
-	z-index: 1000;
 }
-.menu.active .toggle{
-	transform: rotate(360deg);
-	box-shadow: 0 6px 8px rgba(0,0,0,15),0 0 0 2px #333,0 0 0 8px #fff;
+
+.menu{
+	display: flex;
+
+	margin-bottom: 20px ;
 }
 .menu li{
-	position: absolute;
-	left: 0;
-	list-style: none;
-	transition: 0.5s;
-	transform: rotate(calc(45deg * var(--i)));
-	transform-origin: 140px;
-	scale: 0;
-	transition-delay: calc(0.05s * var(--i));
+	text-decoration: none;
 }
-.menu.menu.active li {
-	scale: 1;
-}
+
 .menu li a {
+	padding: 0 5px;
 	position: relative;
 	display: flex;
-	transform: rotate(calc(-45deg * var(--i)));
 	width: 60px;
 	height: 60px;
 	background: #fff;
@@ -424,10 +390,6 @@
 .menu li:hover a {
 	font-size: 2.5em;
 	box-shadow: 0 0 0 2px var(--clr), 0 0 0 6px #fff;
-}
-.menu	{
-	margin-left: auto;
-	margin-top: 20px;
 }
 .enasty{
     height: 100px;
