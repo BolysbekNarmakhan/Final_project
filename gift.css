@@ -11,6 +11,7 @@
 	box-shadow: 10px 10px 5px rgb(77, 145, 104);
 	padding:10px;
 	display:flex;
+	letter-spacing: uppercase;
 	justify-content:space-between;
 }
 .tobe1{
@@ -467,3 +468,18 @@
   }
   .about ul li ul li a {display:block !important;} 
   .about ul li ul li:hover {background: #666;}
+
+
+
+.first{
+	padding-left: 100px;
+	padding-top: 100px;
+	
+}
+.first h2{
+	padding: 27px;
+}
+.first a{
+	display: flex;
+}
+
