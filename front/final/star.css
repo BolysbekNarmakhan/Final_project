@@ -34,9 +34,12 @@ body{
 }
 .name{
     text-align: center;
-
+    margin-left: 20px;
 }
 .tip{
+    display: flex;
+    align-items: center;
+    text-align: center;
     padding: 30px;
     margin-right: 200px;
     width: 150px;
@@ -51,6 +54,7 @@ body{
     color: black;
     border-bottom:  none;
     text-decoration: none;
+    margin-left: 15px;
 }
 @media screen and (max-width: 800px){
     .left{
@@ -58,5 +62,10 @@ body{
     }
     .MENU{
         padding-left: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .flex{
+        flex-direction: column;
     }
 }
