@@ -72,20 +72,22 @@ function isEmail(email){
 
 
 //podelit
+    let toggle=document.querySelector('.toggle');
+    let menu=document.querySelector('.menu');
+    toggle.onclick =function(){
+        menu.classList.toggle('active')
+    }
 
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry)=> {
+        console.log(entry)
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
     
 const passElement = document.querySelectorAll('.pass');
 passElement.forEach((el) => observer.observe(el));
-
-
-let toggle=document.querySelector('.toggle');
-let menu=document.querySelector('.menu');
-toggle.onclick =function(){
-    menu.classList.toggle('active')
-}
-
-
-//sssss
-
-  
-  // Close the dropdown if the user clicks outside of it

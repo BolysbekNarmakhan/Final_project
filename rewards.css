@@ -211,6 +211,56 @@
 .tobe2 img{
 	border-radius: 50% 50%;
 }
+main {
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid lightgray;
+}
+section.section__1 {
+	height: 90vh;
+	width: 100%;
+	background-image: url(https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgb(212, 233, 226);
+	display: flex;
+	align-items: center;
+}
+.section__1-inner {
+	width: 20%;
+	margin-left: 12.5%;
+}
+.inner-title {
+	width: 100%;
+}
+h1 {
+	font-size: 35px;
+}
+.inner-text {
+	width: 100%;
+	margin-top: 20px;
+}
+p {
+	font-weight: 400;
+	font-size: 20px;
+}
+a:hover {
+	text-decoration: none;
+}
+.inner-btn {
+	width: 100%;
+	margin-top: 30px;
+}
+
+section.section__2 {
+	width: 100%;
+	padding: 100px 0px;
+	display: flex;
+	justify-content: center;
+}
 .dropbtn {
 	background-color: #04AA6D;
 	color: white;
@@ -225,3 +275,17 @@
   }
   
 
+.section__2-inner {
+	width: 65%;
+}
+	.section__2-title {
+		width: 100%;
+		padding: 10px;
+}
+h3 {
+	font-size: 30px;
+}
+.section__2-text {
+	width: 100%;
+	padding: 10px;
+}
