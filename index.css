@@ -227,3 +227,100 @@
   }
   .about ul li ul li a {display:block !important;} 
   .about ul li ul li:hover {background: #666;}
+
+  *{
+	background-color: rgb(255, 255, 255);
+}
+.maps{
+   display: flex;
+   padding: 0 0;
+}
+.search-nas{
+	display: flex;
+
+}
+
+.h3{
+	padding-left:  20px;
+	font-size: 30px;
+	line-height: 1.385;
+	font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: rgba(0, 0, 0,.85);
+}
+.arc{
+	padding-left:  20px;
+	font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: rgba(0, 0, 0,.58);
+}
+.search{
+	width: 45%;
+	height: 150px;
+	border-bottom: 1px solid rgba(0,0,0,.58)ф;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.nas{
+	display: block;
+}
+.astyy{
+	padding-left:5%;
+	display:flex;
+}
+.astyy a {
+	text-decoration: none;
+	color: rgb(72, 72, 72);
+}
+.tobe{
+	margin:0;
+	border:2px solid green;
+	padding:10px;
+	display:flex;
+	justify-content:space-between;
+}
+.tobe1{
+	justify-content: flex-start;
+	display:flex;	
+	justify-content:space-evenly;
+}
+.tobe2{
+	display: flex;
+	
+}
+
+.tobe2 button{ 
+	background:rgb(0, 0, 0) ;
+	color:white;
+	font-size: 25px;
+	
+}
+.tobe1 img{
+	border-radius: 50% 50%;
+}
+.tobe2 a{
+	text-decoration: none;
+	font-weight: 75px;
+	color: rgb(1, 89, 61);
+	padding:0 28px;
+	font-family: cursive;
+	font-size: 150%;
+	border-radius:15%;
+}
+
+.tobe1 a {
+	text-decoration: none;
+	color: rgb(0, 84, 56);
+	padding: 0 21px;
+	font-family: cursive;
+	font-size: 150%;
+}
+
+.tobe2 img{
+	border-radius: 50% 50%;
+}
+.animate{
+	text-transform: uppercase;
+	color: rgb(0, 112, 204);
+	display:inline-block;
+	font-size: 78px;
+}
