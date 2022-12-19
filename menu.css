@@ -4,6 +4,7 @@ body{
   }
   .MENU{
     display: flex;
+	padding-top: 90px;
   }
   .left{
     padding: 15px 150px;
