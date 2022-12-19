@@ -4,6 +4,7 @@
 
 }
 .tobe{
+	
 	position:fixed ;
 	width:100%;
 	z-index: 100;
@@ -118,6 +119,7 @@
 
 }
 .about{
+	padding-top: 150px;
 	display:flex;
 	justify-content:space-between;
 }
